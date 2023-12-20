@@ -28,7 +28,7 @@
                         <p class="text-danger">{{$errors->first('password')}}</p>
                         @enderror
                     </div>
-                    @include('includes.captcha')
+                    {{-- @include('includes.captcha') --}}
                     <div class="form-group text-center">
                         <div class="row">
                             <div class="col-xs-12 col-md-4 offset-md-4">

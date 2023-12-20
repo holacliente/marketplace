@@ -1,4 +1,4 @@
-<h3 class="mt-3">My products</h3>
+<h3 class="mt-3">{{ __('panel.label_sales') }}</h3>
 <hr>
 
 @if(auth() -> user() -> products -> isNotEmpty())

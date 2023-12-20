@@ -40,7 +40,8 @@
                             sure that you choose a strong one
                         </span>
                     </div>
-                    <div class="form-group">
+                    
+                    {{-- <div class="form-group">
                         <div class="input-group mb-2">
                             <div class="input-group-prepend">
                                 <div class="input-group-text">Referral Code</div>
@@ -48,12 +49,12 @@
                             <input type="text" name="refid" value="{{$refid}}" class="form-control"
                                    @if($refid !== '') readonly @endif>
                         </div>
-
-                    </div>
-                    @include('includes.captcha')
-                    @if($errors->has('captcha'))
+                    </div> --}}
+                    
+                    {{-- @include('includes.captcha') --}}
+                    {{-- @if($errors->has('captcha'))
                         <p class="text-danger">{{$errors->first('captcha')}}</p>
-                    @endif
+                    @endif --}}
                     <div class="form-group text-center">
                         <div class="row">
                             <div class="col-xs-12 col-md-4 offset-md-4">

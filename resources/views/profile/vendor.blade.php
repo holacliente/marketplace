@@ -7,7 +7,7 @@
     @include('includes.flash.error')
     @include('includes.flash.invalid')
 
-    <h1 class="mb-3">Vendor settings</h1>
+    <h1 class="mb-3">{{ __('panel.title') }}</h1>
     <hr>
     @vendor
         {{-- Vendor Display --}}
